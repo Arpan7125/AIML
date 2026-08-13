@@ -1,0 +1,49 @@
+{
+  "best_model": "Stacking (RF+XGB+LogReg)",
+  "results": [
+    {
+      "Model": "Baseline (Decision Tree)",
+      "Accuracy": 0.6206,
+      "F1 (macro)": 0.6057,
+      "F1 (weighted)": 0.616,
+      "Precision (macro)": 0.6463,
+      "Recall (macro)": 0.5917,
+      "ROC-AUC (ovr, macro)": 0.754
+    },
+    {
+      "Model": "Bagging (Random Forest)",
+      "Accuracy": 0.6865,
+      "F1 (macro)": 0.6808,
+      "F1 (weighted)": 0.6865,
+      "Precision (macro)": 0.6979,
+      "Recall (macro)": 0.6725,
+      "ROC-AUC (ovr, macro)": 0.832
+    },
+    {
+      "Model": "Boosting (XGBoost)",
+      "Accuracy": 0.7086,
+      "F1 (macro)": 0.7013,
+      "F1 (weighted)": 0.7082,
+      "Precision (macro)": 0.7157,
+      "Recall (macro)": 0.6937,
+      "ROC-AUC (ovr, macro)": 0.8536
+    },
+    {
+      "Model": "Stacking (RF+XGB+LogReg)",
+      "Accuracy": 0.724,
+      "F1 (macro)": 0.7139,
+      "F1 (weighted)": 0.7225,
+      "Precision (macro)": 0.737,
+      "Recall (macro)": 0.7032,
+      "ROC-AUC (ovr, macro)": 0.8611
+    }
+  ],
+  "n_train": 18188,
+  "n_val": 3898,
+  "n_test": 3898,
+  "class_distribution": {
+    "Low": 11234,
+    "High": 8888,
+    "Critical": 5862
+  }
+}

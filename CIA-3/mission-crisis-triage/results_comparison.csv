@@ -1,0 +1,5 @@
+Model,Accuracy,F1 (macro),F1 (weighted),Precision (macro),Recall (macro),"ROC-AUC (ovr, macro)"
+Baseline (Decision Tree),0.6206,0.6057,0.616,0.6463,0.5917,0.754
+Bagging (Random Forest),0.6865,0.6808,0.6865,0.6979,0.6725,0.832
+Boosting (XGBoost),0.7086,0.7013,0.7082,0.7157,0.6937,0.8536
+Stacking (RF+XGB+LogReg),0.724,0.7139,0.7225,0.737,0.7032,0.8611
